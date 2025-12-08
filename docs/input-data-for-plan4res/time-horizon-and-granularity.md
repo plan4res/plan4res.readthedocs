@@ -1,0 +1,2 @@
+## Time horizon and granularity
+
