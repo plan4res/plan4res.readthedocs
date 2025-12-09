@@ -1,4 +1,4 @@
-## Installation of the full plan4res environment, for all operating systems
+## Installation of the full plan4res environment
 
 Requirements: at least 3G available.
 
