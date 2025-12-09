@@ -1,10 +1,10 @@
-The plan4res environment
-========================
+Direct use of SMS++ executables
+===============================
 
 .. toctree::
    :maxdepth: 2
    :glob:
 
-   the-plan4res-environment
-   plan4res-directories
-   plan4res-modules-and-workflow
+   running-the-unit-commitment-uc
+   running-the-ssv-or-the-sim
+   running-the-cem
