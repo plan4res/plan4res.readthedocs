@@ -1,4 +1,4 @@
-### Updating
+### Updating your plan4res installation
 
 #### Update p4r-env
 
