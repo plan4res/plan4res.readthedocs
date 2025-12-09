@@ -1,3 +1,4 @@
+# Using plan4res
 
 This section describes what are the input data of plan4res, for running
 the different modules (SSV: computation of strategies for the management
