@@ -1,14 +1,12 @@
-The plan4res environment
-========================
+Using plan4res
+==============
 
 .. toctree::
    :maxdepth: 2
    :glob:
 
-the-plan4res-environment/intro
-   the-plan4res-environment/the-plan4res-environment
-   the-plan4res-environment/plan4res-directories
-      the-plan4res-environment/p4r_install_dir
-      the-plan4res-environment/p4r_local_dir
-      the-plan4res-environment/dataset-directory
-   the-plan4res-environment/plan4res-modules-and-workflow
+the-plan4res-commands-p4r-and-sp4r
+creating-a-plan4res-dataset
+creating-netcdf-files-out-of-the-csv-files-before-running-the-plan4res-calculation-modules-the-format-module
+running-the-plan4res-optimization-modules-ssv-sim-and-cem
+post-treating-the-results-the-posttreat-module
