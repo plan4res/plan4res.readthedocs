@@ -1,4 +1,6 @@
 
+# Direct use of SMS++ executables
+
 SMS++ configuration files may need to be edited in case optimization
 doesn't behave well.
 
