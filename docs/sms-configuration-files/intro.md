@@ -1,3 +1,4 @@
+# SMS++ configuration files
 
 This section presents the format of plan4res datasets:
 
