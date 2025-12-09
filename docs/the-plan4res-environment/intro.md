@@ -1,3 +1,4 @@
+# The plan4res environment
 
 The process to install plan4res is described in the following
 subsections.
