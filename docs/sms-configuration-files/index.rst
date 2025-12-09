@@ -1,14 +1,11 @@
-The plan4res environment
-========================
+SMS++ configuration files
+=========================
 
 .. toctree::
    :maxdepth: 2
    :glob:
 
-the-plan4res-environment/intro
-   the-plan4res-environment/the-plan4res-environment
-   the-plan4res-environment/plan4res-directories
-      the-plan4res-environment/p4r_install_dir
-      the-plan4res-environment/p4r_local_dir
-      the-plan4res-environment/dataset-directory
-   the-plan4res-environment/plan4res-modules-and-workflow
+config-files-for-ssv-sddp_solvertxt
+config-files-for-simulation-in-sim-or-cem-sddp_greedy_investmenttxt-cem-sddp_greedytxt-sim
+config-file-for-cem-bspar-investmenttxt
+config-file-for-unit-commitment
