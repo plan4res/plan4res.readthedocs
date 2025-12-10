@@ -1,9 +1,8 @@
 ## Quick Install
 
 -   Clone the install repo in a chose directory, e.g. P4R_DIR:
-  '''
-         git clone <https://github.com/plan4res/install>
-  '''
+  
+         'git clone <https://github.com/plan4res/install>'
 
 -   Move the files \*.sh from in P4R_DIR, make them executable:
   '''
