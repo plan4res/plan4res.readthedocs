@@ -50,7 +50,14 @@ After proceeding to the install of plan4res, the software is installed in P4R_DI
 - Before starting the install, create an empty directory (for example P4R_DIR) where you want to install plan4res. **It should not contain special characters or whitespaces!**
 
 
-The installation process is detailed in the following subsections.
+The installation process is detailed in the following subsections:
+- [Linux with p4r-env] (installation-of-the-full-plan4res-environment-on-linux)
 
-Once installed, the plan4res environment will appear as described in section 
+- [Windows with p4r-env] (installation-of-the-full-plan4res-environment-on-windows)
+
+- [Linux without p4r-env] (installation-without-p4r-env-on-linux)
+
+- [Windows without p4r-env] (installation-without-p4r-env-on-windows)
+
+Once installed, the plan4res environment will appear as described in section [The plan4res environment](../the-plan4res-environnment/intro)
 
