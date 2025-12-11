@@ -47,23 +47,28 @@ After proceeding to the install of plan4res, the software is installed in P4R_DI
 
 The installation process is detailed in the following subsections.
 
-```warning
+```{admonition}
+:class: note-green
 It is recommended to install plan4res with the full environment (p4r-env), which is embedded in a singularity container. This requires at least 3Gb. In case you do not have this available, you may install plan4res without the environment, but it requires installing all the dependencies first, which may sometimes be quite tricky.
 ```
 
-```warning
+```{admonition}
+:class: note-green
 Plan4res requires use of external solver, which can be CPLEX, GUROBI, SCIP or HiGHS. If you do have a CPLEX or GUROBI license, it is recommended to use one of these software. If not, it is recommended to use HiGHS. 
 ```
 
-```warning
+```{admonition}
+:class: note-green
 If you wish to use CPLEX, you must have a CPLEX linux installer available, such as cplex_studio2211.linux_x86_64.bin, referenced as cplex_studioXXXXXX.bin below.
 ```
 
-```warning
+```{admonition}
+:class: note-green
 If you wish to use GUROBI, you must have a GUROBI linux installer, sur as gurobi11.0.1_linux64.tar.gz and a gurobi license file: gurobi.lic.
 ```
 
-```warning
+```{admonition}
+:class: note-green
 Before starting the install, create an empty directory (for example P4R_DIR) where you want to install plan4res. **It should not contain special characters or whitespaces!**
 ```
 
