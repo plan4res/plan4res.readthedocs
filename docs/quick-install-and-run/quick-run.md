@@ -2,20 +2,16 @@
 
 -   **Create dataset in P4R_DIR_LOCAL/data** (e.g. YourDataset), with a
     subdirectory IAMC, a subdirectory settings and a subdirectory
-    TimeSeries␣␣
-
-
+    TimeSeries
+<br><br>
 -   **Move your IAMC file** (as computed by GENeSYS-MOD for instance) in
-    P4R_DIR_LOCAL/data/IAMC/ and rename it  P4R_DIR_LOCAL/data/IAMC/YourDataset.xlsx␣␣
-
-
+    P4R_DIR_LOCAL/data/IAMC/ and rename it  P4R_DIR_LOCAL/data/IAMC/YourDataset.xlsx
+<br><br>
 -   **Copy the settings files** from P4R_DIR_LOCAL/data/toyDatasetsettings/
-    to P4R_DIR_LOCAL/data/settings/␣␣
-
-
--   **Create or get and Upload your timeseries** to P4R_DIR_LOCAL/data/TimeSeries␣␣
-
-
+    to P4R_DIR_LOCAL/data/settings/
+<br><br>
+-   **Create or get and Upload your timeseries** to P4R_DIR_LOCAL/data/TimeSeries
+<br><br>
 -   **Edit configuration files** in P4R_DIR_LOCAL/data/settings:
 
     -   Edit settingsCreatePlan4res.yml (in particular the IAMC
@@ -30,46 +26,39 @@
 
     -   If necessary (if you have changed some variable names in
         settingsCreatePlan4res.yml), edit the
-        VariablesDictionnary.yml␣␣
-
-
+        VariablesDictionnary.yml
+<br><br>
 -   **Run CREATE:**
  ```bash
      p4r CREATE YourDataset -M simul    # for a case without capacity expansion
      p4r CREATE YourDataset -M invest   # for a case with capacity expansion
    ```
-␣␣
-
+<br><br>
 -   **Edit settings_format_optim.yml, settings_format_simul.yml and
     settings_format_invest.yml** configuration files in P4R_DIR_LOCAL/data/settings/ (in
     particular the sections Calendar, and the Scenarios and
-    ScenarisedData in section ParametersFormat)␣␣
-
-
+    ScenarisedData in section ParametersFormat)
+<br><br>
 -   **Run SSV:** 
  ```bash
      p4r SSV YourDataset
    ```
-␣␣
-
+<br><br>
 -   **Run SIM:**
  ```bash
      p4r SIM YourDataset
    ```
-␣␣
-
+<br><br>
 -   **Run CEM:** 
  ```bash
      p4r CEM YourDataset
    ```
-␣␣
-
+<br><br>
 -   **Edit settingsPostTreatPlan4res.yml**  in P4R_DIR_LOCAL/data/settings/. In particular, the
     start and end dates of you study, the list of technologies (if you
     added new technologies), and the size of graphs (to allow to cope
     with all regions / all interconnections / all technos)
-␣␣
-
+<br><br>
 -   **Run POSTTREAT:** 
  ```bash
      p4r POSTTREAT YourDataset -M simul    # for a case without capacity expansion
