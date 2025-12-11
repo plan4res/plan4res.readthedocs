@@ -29,11 +29,10 @@
         VariablesDictionnary.yml
 <br><br>
 -   **Run CREATE:**
- ```bash
+```bash
      p4r CREATE YourDataset -M simul    # for a case without capacity expansion
      p4r CREATE YourDataset -M invest   # for a case with capacity expansion
    ```
-<br><br>
 -   **Edit settings_format_optim.yml, settings_format_simul.yml and
     settings_format_invest.yml** configuration files in P4R_DIR_LOCAL/data/settings/ (in
     particular the sections Calendar, and the Scenarios and
@@ -43,17 +42,14 @@
  ```bash
      p4r SSV YourDataset
    ```
-<br><br>
 -   **Run SIM:**
  ```bash
      p4r SIM YourDataset
    ```
-<br><br>
 -   **Run CEM:** 
  ```bash
      p4r CEM YourDataset
    ```
-<br><br>
 -   **Edit settingsPostTreatPlan4res.yml**  in P4R_DIR_LOCAL/data/settings/. In particular, the
     start and end dates of you study, the list of technologies (if you
     added new technologies), and the size of graphs (to allow to cope
