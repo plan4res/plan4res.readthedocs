@@ -8,6 +8,11 @@ This section describes how to install plan4res on different systems:
     - (not recommended) with Vagrant
 - "Server" mode (on Linux)
 
+.. seealso::
+
+   I used this blog post as reference
+   https://simonwillison.net/2022/Oct/14/automating-screenshots/
+
 
 [!Abstract] Summary of installation (Linux or Windows WSL)
 
